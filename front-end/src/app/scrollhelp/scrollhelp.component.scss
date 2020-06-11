@@ -1,0 +1,50 @@
+$length: 45px;
+
+.fixBtns {
+    position: fixed;
+    bottom: 30px;
+    right: 30px; 
+}
+
+.up {
+    height: $length;
+    width: $length;
+    margin: 12px;
+    border: black 1px solid;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    transition: 0.5s;
+    
+}
+.up:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.down {
+    height: $length;
+    width: $length;
+    margin: 12px;
+    border: black 1px solid;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.down:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    transform: translate(0px, 4px);
+}
+
+.center2 {
+    display: block;
+    margin: auto;
+    transform: translate(0px, 7px) rotate(180deg);
+}
