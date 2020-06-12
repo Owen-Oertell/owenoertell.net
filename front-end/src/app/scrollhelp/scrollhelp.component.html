@@ -1,10 +1,11 @@
 <div class="fixBtns">
     <div class="row">
-        <div class="up" (mouseleave)="changeToUp()" (mouseenter)="changeToWhiteUp()">
-            <img src="../../assets/arrow.svg" height="70%" width="70%" class="center" id="up" >
+        <!--<p>{{currentStage}}&nbsp;/&nbsp;{{stageSize}}</p>-->
+        <div class="up" (mouseleave)="changeToUp()" (mouseenter)="changeToWhiteUp()" (click)="upClick()">
+            <img src="../../assets/arrow.svg" height="70%" width="70%" class="center noselect" id="up" >
         </div>
-        <div class="down" (mouseleave)="changeToDown()" (mouseenter)="changeToWhiteDown()">
-            <img src="../../assets/arrow.svg" height="70%" width="70%" class="center2" id="down" >
+        <div class="down" (mouseleave)="changeToDown()" (mouseenter)="changeToWhiteDown()" (click)="downClick()">
+            <img src="../../assets/arrow.svg" height="70%" width="70%" class="center2 noselect" id="down" >
         </div>
     </div>
 </div>

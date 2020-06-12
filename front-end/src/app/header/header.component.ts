@@ -13,9 +13,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  gotoTop() {
-    let el = document.getElementById('about');
-    el.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
-    changeStage(1);
+  public goTo(stage) {
+    changeStage(stage);
   }
 }
