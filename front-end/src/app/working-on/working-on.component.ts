@@ -10,10 +10,15 @@ export class WorkingOnComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
     setInterval(() => {
       this.checkVP();      
     }, 300)
+
+    let response = await fetch('http://localhost:8000');
+    let responseText = await this.getTextFromStream(response.body);
+    
+
   }
 
   private checkVP() {
@@ -21,5 +26,20 @@ export class WorkingOnComponent implements OnInit {
       changeStageNS(getUpToStage());
     }
   }
+
+  private async getTextFromStream(readableStream) {
+    let reader = readableStream.getReader();
+    let utf8Decoder = new TextDecoder();
+    let nextChunk;
+    
+    let resultStr = '';
+    
+    while (!(nextChunk = await reader.read()).done) {
+        let partialData = nextChunk.value;
+        resultStr += utf8Decoder.decode(partialData);
+    }
+    
+    return resultStr;
+}
 
 }
