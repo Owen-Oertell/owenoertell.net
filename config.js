@@ -22,12 +22,15 @@ module.exports = {
     {
       label: 'Contact me',
       path: '/pages/contacts'
+    },
+    {
+      label: 'Posts by Tag',
+      path: '/tags/'
     }
   ],
   author: {
     name: 'Owen Oertell',
     photo: '/photo.jpg',
-    bio: 'Chamblee High School \'2022\nHead of Engineering @ Y Stem and Chess Inc.\nLab member of Dickson Lab @ Georgia Tech',
     contacts: {
       email: 'owen@oertell.net',
       facebook: '',
