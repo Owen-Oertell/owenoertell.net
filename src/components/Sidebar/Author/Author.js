@@ -18,8 +18,8 @@ const Author = ({ author, isIndex }: Props) => (
       <img
         src={withPrefix(author.photo)}
         className={styles['author__photo']}
-        width="75"
-        height="75"
+        width="110"
+        height="110"
         alt={author.name}
       />
     </Link>
@@ -33,7 +33,7 @@ const Author = ({ author, isIndex }: Props) => (
         <Link className={styles['author__title-link']} to="/">{author.name}</Link>
       </h2>
     )}
-    <p className={styles['author__subtitle']}>{author.bio}</p>
+    <p className={styles['author__subtitle']}>Chamblee High School '2022<br/>Head of Engineering @ <a href="https://ystemandchess.com">YSC</a><br/>Member of Dickson Lab @ <a href="https://www.gatech.edu/">GaTech</a></p>
   </div>
 );
 
