@@ -5,7 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-caches-gatsby-plugin-offline-app-shell-js": (preferDefault(require("/home/oweno/Documents/personal-website/.cache/caches/gatsby-plugin-offline/app-shell.js"))),
+  "component---cache-dev-404-page-js": (preferDefault(require("/home/oweno/Documents/personal-website/.cache/dev-404-page.js"))),
   "component---src-templates-categories-list-template-js": (preferDefault(require("/home/oweno/Documents/personal-website/src/templates/categories-list-template.js"))),
   "component---src-templates-category-template-js": (preferDefault(require("/home/oweno/Documents/personal-website/src/templates/category-template.js"))),
   "component---src-templates-index-template-js": (preferDefault(require("/home/oweno/Documents/personal-website/src/templates/index-template.js"))),
