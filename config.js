@@ -28,6 +28,7 @@ module.exports = {
       path: '/tags/'
     }
   ],
+  bio: 'I write about ML, Bioinformatics, and CS!',
   author: {
     name: 'Owen Oertell',
     photo: '/photo.jpg',
