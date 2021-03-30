@@ -36,7 +36,8 @@ The emergence of NGS means that the amount of genomic data available has skyrock
   Yet the algorithm does not need to do this checking every time. Instead, it takes the minimum value of the blue and then adds 1 if the character on that row is not equal to the character on that column. Thus, it selected the 2 and added 1 because `e` is not the same as `o` and thus we get the three highlighted in yellow. In order to fill in the entire table, we need start by filling in the row and column with spaces and then start using the 3-checking method from the element highlighted in orange and proceed to the right.
 
 $$
-\centering{\left(\begin{array}{c|ccccccccc}
+\begin{align*}
+\left(\begin{array}{c|ccccccccc}
  &\colorbox{lightgreen}{ } &\colorbox{lightgreen}{e}&n&g&a&g&i&n&g\\
 \hline
  \colorbox{red}{ }&0&1&2&3&4&5&6&7&8\\
@@ -51,7 +52,7 @@ m&8&8&8&7&6&6&6&7&8\\
 i&9&9&9&8&7&7&6&7&8\\
 n&10&10&9&9&8&8&7&6&7\\
 g&11&11&10&9&9&8&8&7&6\\
-\end{array}\right)}
+\end{array}\right) \end{align*}
 $$
 
   Now that you are familiar with how the algorithm functions, it becomes obvious that the main downside of dynamic programming is speed, also known as asymptotic complexity, for which it takes to run. This algorithm takes $\mathcal{O}(nm)$ time (where $m$ is the length of one string and $n$ is the length of the other string) to determine the distance. And although comparing 100 strings takes an extremely short amount of time, once one attempts to calculate this for every base pair in the genome, ~3.2 billion times, the run time of the algorithm really starts to add up. In fact, based off some short testing I ran, I calculated that it would take over 300 years to finish!
