@@ -10,22 +10,14 @@ import { useSiteMetadata } from '../hooks';
 const NotFoundTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
 
-  let url = "https://miro.medium.com/max/441/1*9EBHIOzhE1XfMYoKz1JcsQ.gif";
-  fetch('https://random-xkcd-img.herokuapp.com/')
-    .then((response) => response.json())
-    .then((responseJson) => {
-      url=responseJson.url;
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  let url = "/depth_and_breadth.png";
 
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />
       <Page title="404: NOT FOUND">
-        <p>It appears that this route doesn't exist... but enjoy a random XKCD:</p>
-        <img src={url} alt="hopefully an xkcd comic" /> 
+        <p>It appears that this route doesn't exist... but enjoy a fun XKCD:</p>
+        <img src={url} alt="hopefully an xkcd comic" loading="lazy"/> 
       </Page>
     </Layout>
   );
