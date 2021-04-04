@@ -31,7 +31,7 @@ module.exports = {
   bio: 'I write about ML, Bioinformatics, and CS!',
   author: {
     name: 'Owen Oertell',
-    photo: '/photo.jpg',
+    photo: '/media/owen-oertell-github-logo.png',
     contacts: {
       email: 'owen@oertell.net',
       facebook: '',
