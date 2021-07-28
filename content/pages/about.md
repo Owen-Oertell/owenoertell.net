@@ -16,6 +16,7 @@ I mainly program in C, C++, and Python but have good knowlege of web frameworks 
 My current main projects are:
 * YStem and Chess &mdash; Found [here](https://ystemandchess.com).
 * Work on Copy Number Variation at Tech &mdash; and hopefully being able to fufill my dream of getting published!
+* Co-Founder of [PrepByAI](https://prepbyai.com), which is a test prep organization hoping to help kids prepare for the ACT using machine learning.
 
 Past Things I have created (still trying to remember):
 * MasterPass &mdash; A password managment program written in C# with SHA-256 bit encryption.
