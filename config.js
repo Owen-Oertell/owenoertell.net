@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://owenoertell.net',
   pathPrefix: '/',
-  title: 'Owen Oertell\'s Blog',
+  title: 'Owen Oertell',
   subtitle: 'I write about ML, Bioinformatics, and CS!',
   copyright: '© Owen Oertell · All rights reserved.',
   disqusShortname: '',
@@ -33,7 +33,7 @@ module.exports = {
     name: 'Owen Oertell',
     photo: '/media/owen-oertell-github-logo.png',
     contacts: {
-      email: 'owen@oertell.net',
+      email: '',
       facebook: '',
       telegram: '',
       twitter: '',
