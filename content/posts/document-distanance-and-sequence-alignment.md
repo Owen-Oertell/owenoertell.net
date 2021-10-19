@@ -4,16 +4,16 @@ date: "2021-03-30T13:00:51Z"
 template: "post"
 draft: false
 slug: "applying-document-distance-to-sequence-alignment"
-category: "Quantiative finance"
+category: "Bioinformatics"
 tags:
-  - "Quantiative finance"
+  - "Bioinformatics"
   - "Dynamic Programming"
   - "Algorithms"
-description: "Quantiative finance is currently one of the fastest growing fields. From advancements in protein folding with Alpha Fold to algorithmic discoveries which resulted like Bowtie 2, to even mechanical improvements like Next Generation Sequencing (NGS), significant progress has been made—and will continue."
+description: "Bioinformatics is currently one of the fastest growing fields. From advancements in protein folding with Alpha Fold to algorithmic discoveries which resulted like Bowtie 2, to even mechanical improvements like Next Generation Sequencing (NGS), significant progress has been made—and will continue."
 socialImage: "/media/owen-oertell-github-logo.png"
 ---
 
-  Quantiative finance is currently one of the fastest growing fields. From advancements in protein folding with [Alpha Fold](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology) to algorithmic discoveries which resulted like [Bowtie 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322381/), to even mechanical improvements like Next Generation Sequencing (NGS), significant progress has been made&mdash;and will continue.
+  Bioinformatics is currently one of the fastest growing fields. From advancements in protein folding with [Alpha Fold](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology) to algorithmic discoveries which resulted like [Bowtie 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322381/), to even mechanical improvements like Next Generation Sequencing (NGS), significant progress has been made&mdash;and will continue.
 
   Yet, one particularly interesting part of such a fascinating field I would like to talk about today is document distance and its application for sequence alignment.
 
