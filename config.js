@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://owenoertell.net',
   pathPrefix: '/',
   title: 'Owen Oertell',
-  subtitle: 'I write about ML, Bioinformatics, and CS!',
+  subtitle: 'I write about ML, Quantiative finance, and CS!',
   copyright: '© Owen Oertell · All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -28,7 +28,7 @@ module.exports = {
       path: '/tags/'
     }
   ],
-  bio: 'I write about ML, Bioinformatics, and CS!',
+  bio: 'I write about ML, Quantiative finance, and CS!',
   author: {
     name: 'Owen Oertell',
     photo: '/media/owen-oertell-github-logo.png',

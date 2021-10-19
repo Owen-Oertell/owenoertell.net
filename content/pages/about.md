@@ -5,7 +5,7 @@ socialImage: "/media/owen-oertell-github-logo.png"
 ---
 Hello! My name is Owen Oertell and I am a rising senior at Chamblee Charter High School in Atlanta, GA!
 
-I am interesting in Bioinformatics, CS, and Machine learning.
+I am interested in quantiative finance, CS, and Machine learning.
 
 I plan on writing primarily about cool CS and ML topics as well as college admissions if I feel particularly opinionated.
 
