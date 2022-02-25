@@ -3,12 +3,12 @@ import './App.css';
 import mathcalO from './mathcalO.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faGoodreadsG, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPage } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
     <div className="App">
-      <img src={mathcalO} />
+      <img src={mathcalO} alt="" />
       <h3>Hello! My name is Owen Oertell.</h3>
       <p>I am a computer science, math, and quantitative finance enthusiast.</p>
 
