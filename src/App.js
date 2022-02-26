@@ -18,13 +18,13 @@ function App() {
       </div>
 
       <div className='links'>
-        <a className='link github' href='https://github.com/owenoertell'>
+        <a className='link github' href='https://github.com/owen-oertell'>
           <span >
             <FontAwesomeIcon icon={faGithub} />
           </span>
         </a>
 
-        <a className='link linkedin' href='https://www.linkedin.com/in/owenoertell/'>
+        <a className='link linkedin' href='https://www.linkedin.com/in/owen-oertell/'>
           <span>
             <FontAwesomeIcon icon={faLinkedin} />
           </span>
@@ -42,7 +42,7 @@ function App() {
           </span>
         </a>
 
-        <a className='link resume' href='https://github.com/owenoertell'>
+        <a className='link resume' href='https://github.com/owen-oertell'>
           <span>
             CV / Resumé
           </span>
