@@ -14,7 +14,7 @@ function App() {
 
       <div className='text'>
         <p className='info'>I am a senior at Chamblee High School, looking to double major in mathematics and computer science.</p>
-        <p className='info'>I work as head of engineering at <a className='hyper' href='https://ystemandchess.com'>Y STEM and Chess</a>, a researcher at Dickson Lab (Georgia Institue of Technology), and co-founder of <a className='hyper' href='https://prepbyai.com'>PrepByAI</a>.</p>
+        <p className='info'>I work as head of engineering at <a className='hyper' href='https://ystemandchess.com'>Y STEM and Chess</a>, a researcher at Dickson Lab (Georgia Institute of Technology), and co-founder of <a className='hyper' href='https://prepbyai.com'>PrepByAI</a>.</p>
       </div>
 
       <div className='links'>
