@@ -60,7 +60,7 @@ function App() {
 
       <div className="footer">
         &copy; {new Date().getFullYear()} Owen Joshua Oertell
-        <a className='hyper grey' href='mailto:owen@oertell.net'>owen@oertell.net{window.location.href}</a>
+        <a className='hyper grey' href='mailto:owen@oertell.net'>owen@oertell.net</a>
       </div>
     </div>
   );
