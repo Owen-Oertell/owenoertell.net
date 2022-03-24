@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import FileBrowser from './components/FileBrowser/FileBrowser';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path="*" element={<App />} />
+      <Route path="/files/*" element={<FileBrowser />} />
+      <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>,
 
