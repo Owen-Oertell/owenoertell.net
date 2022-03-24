@@ -9,7 +9,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/files*" element={<FileBrowser />} />
-      <Route path="*" element={<App />} />
+      <Route exact path="*" element={<App />} />
     </Routes>
   </BrowserRouter>,
 
