@@ -1,5 +1,5 @@
 https://files.owenoertell.com/resume.pdf https://resume.owenoertell.com/ 200
-https://files.owenoertell.net/resume.pdf https://resume.owenoertell.com 200
+https://files.owenoertell.net/resume.pdf https://resume.owenoertell.com/ 200
 https://files.owenoertell.com/* https://owenoertell.com/files/:splat 200
 https://files.owenoertell.net/* https://owenoertell.com/files/:splat 200
 /* /index.html 200
