@@ -3,7 +3,7 @@ import "./fileBrowser.css";
 import fileList from './fileList.js';
 
 function objectPath(obj, path) {
-  if (path === "/") {
+  if (path === "/" || path === "") {
     return obj;
   }
   if (path.lastIndexOf("/") === path.length - 1) {
