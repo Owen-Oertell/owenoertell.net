@@ -55,7 +55,8 @@ function getFolderDir(path) {
       if (obj[key].type === "folder") {
         return (
           <div className='FileBrowser-list-folder' key={key}>
-            <a href={window.location.href + key + "/"}>{key}</a>
+
+            <a href={window.location.href + window.location.href[window.location.href.length - 1] === "/" ? "" : "/" + key + "/"}>{key}</a>
           </div>
         );
       } else if (obj[key].type === "file") { // file!
@@ -75,7 +76,7 @@ function getFolderDir(path) {
 const FileBrowser = () => (
   <div className='FileBrowser'>
     <h1>Owen's File Respository</h1>
-    <h4>Current Directory: {window.location.pathname.substring(6)}</h4>
+    <h4>Current Directory: {window.location.pathname.substring(6) === "" ? "/" : window.location.pathname.substring(6)}</h4>
     <div className='FileBrowser-list'>
       {addBackButton()}
       {getFolderDir(window.location.pathname.substring(6))}
