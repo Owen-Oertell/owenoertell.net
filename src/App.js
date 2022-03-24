@@ -48,7 +48,7 @@ function App() {
           </span>
         </a>
 
-        <a className='link resume' href='https://blog.owenoertell.com/'>
+        <a className='link resume' href='https://blog.owenoertell.com/resume.pdf'>
           <span>
             Blog
           </span>
