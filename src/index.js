@@ -8,7 +8,6 @@ import FileBrowser from './components/FileBrowser/FileBrowser';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/files*" element={<FileBrowser />} />
       <Route exact path="*" element={<App />} />
     </Routes>
   </BrowserRouter>,
