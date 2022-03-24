@@ -42,13 +42,13 @@ function App() {
           </span>
         </a>
 
-        <a className='link resume' href='https://resume.owenoertell.com' download>
+        <a className='link resume' href='https://resume.owenoertell.com/resume.pdf' download>
           <span>
             CV / Resumé
           </span>
         </a>
 
-        <a className='link resume' href='https://blog.owenoertell.com/resume.pdf'>
+        <a className='link resume' href='https://blog.owenoertell.com'>
           <span>
             Blog
           </span>
