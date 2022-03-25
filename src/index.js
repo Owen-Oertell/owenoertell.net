@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const memoryHistory = createMemoryHistory(options);
-
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
