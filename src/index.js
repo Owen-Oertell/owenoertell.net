@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, MemoryRouter } from "react-router-dom";
+
+const memoryHistory = createMemoryHistory(options);
 
 ReactDOM.render(
-  <BrowserRouter>
+  <MemoryRouter>
     <Routes>
-      <Route exact path="*" element={<App />} />
+      <Route path="/files*"><Redirect to="https://files.owenoertell.com/" /></Route>
+      <Route path="*" element={<App />} />
     </Routes>
-  </BrowserRouter>,
+  </MemoryRouter>,
 
   document.getElementById('root')
 );
