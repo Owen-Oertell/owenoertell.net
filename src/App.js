@@ -8,7 +8,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 function App() {
   return (
     <div className="App">
-      <img src={mathcalO} alt="" />
+      <img src={mathcalO} alt="" width="90px" height="82px" />
       <h3>Hello! My name is Owen Oertell.</h3>
       <p>I am a computer science, math, and quantitative finance enthusiast.</p>
 
