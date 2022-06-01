@@ -13,7 +13,7 @@ function App() {
       <p>I am a computer science, math, and quantitative finance enthusiast.</p>
 
       <div className='text'>
-        <p className='info'>I am an incoming freshmen at Cornell University, double majoring in computer science and electrical computer engineering, with a double minor in applied mathematics and economics.</p>
+        <p className='info'>I am an incoming freshman at Cornell University, double majoring in computer science and electrical computer engineering, with a double minor in applied mathematics and economics.</p>
         <p className='info'>I work as head of engineering at <a className='hyper' href='https://ystemandchess.com'>Y STEM and Chess</a>, a researcher at Dickson Lab (Georgia Institute of Technology), and co-founder of <a className='hyper' href='https://prepbyai.com'>PrepByAI</a>.</p>
       </div>
 
