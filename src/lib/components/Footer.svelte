@@ -1,18 +1,8 @@
 <footer class="layout-md mt-20 text-lg flex flex-col">
   <div class="row">
-    <span>Twitter</span>
+    <a class="link" href="https://github.com/owen-oertell">@owen-oertell</a>
     <hr />
-    <a class="link" href="https://twitter.com/ekzhang1">@ekzhang1</a>
-  </div>
-  <div class="row">
-    <span>GitHub</span>
-    <hr />
-    <a class="link" href="https://github.com/ekzhang">@ekzhang</a>
-  </div>
-  <div class="row">
-    <span>Email</span>
-    <hr />
-    <a class="link" href="mailto:ekzhang1@gmail.com">ekzhang1@gmail.com</a>
+    <a class="link" href="mailto:ojo2@cornell.edu">ojo2@cornell.edu</a>
   </div>
 </footer>
 
@@ -21,11 +11,11 @@
     @apply flex items-center space-x-4;
   }
 
-  .row span {
+  .row a {
     @apply text-neutral-500;
   }
 
   .row hr {
-    @apply w-full mt-0.5 border-neutral-300 border-dotted;
+    @apply w-7/12 mt-0.5 border-neutral-300 border-dotted;
   }
 </style>

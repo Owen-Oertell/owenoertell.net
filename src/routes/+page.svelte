@@ -26,6 +26,10 @@
         href="https://cuai.github.io/">CUAI</a
       >.
     </p>
+    <p>
+      My research interests include machine learning, theory of computation,
+      complexity theory, and optimization.
+    </p>
   </div>
 
   <div class="space-y-5">
@@ -34,14 +38,17 @@
         class="link"
         href="https://dickson.chemistry.gatech.edu/">Dickson Lab</a
       > at Georgia Tech, where I focus on developing a low budget blood assay technique.
-      I currently TA for CS 4820: Introduction to Analysis of Algorithms
+      I currently TA for Introduction to Analysis of Algorithms (CS 4820).
     </p>
 
     <p />
 
     <p>
-      In addition, I am interested in math, physics, art, musical theatre, and
-      biking.
+      Other interests: math, art, <a
+        class="link"
+        href="https://www.goodreads.com/user/show/117571286-owen">literature</a
+      >, and
+      <a class="link" href="https://en.wikipedia.org/wiki/Go_(game)">go</a>.
     </p>
   </div>
 </div>
@@ -49,18 +56,6 @@
 <style lang="postcss">
   .g {
     @apply text-neutral-400;
-  }
-
-  em {
-    @apply font-serif text-[110%] leading-[100%];
-  }
-
-  .project-pair {
-    @apply grid sm:grid-cols-[1fr,2fr] gap-y-1 -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors;
-  }
-
-  aside {
-    @apply mt-0.5 text-base text-neutral-500;
   }
 
   /* Correction for vertical navigation links on mobile. */
