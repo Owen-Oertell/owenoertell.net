@@ -11,7 +11,7 @@
   <meta property="og:description" content={description} />
   <meta
     property="og:image"
-    content="https://www.owenoertell.com/assets/images/image_round_2.png"
+    content="https://www.owenoertell.com/assets/images/image_round_1.png"
   />
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
