@@ -1,6 +1,6 @@
 <script lang="ts">
   import "@fontsource/newsreader/400-italic.css";
-  import "../app.css";
+  import "../App.css";
 
   import { browser, dev } from "$app/environment";
 
