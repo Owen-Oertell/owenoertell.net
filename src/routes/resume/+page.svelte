@@ -2,6 +2,11 @@
   import Seo from "$lib/components/Seo.svelte";
   import Workplace from "./Workplace.svelte";
   import Project from "./Project.svelte";
+
+  // anonymous function redirect to resume pdf when user prints
+  // window.onbeforeprint = () => {
+  //  window.location.href = "https://resume.owenoertell.com/resume.pdf";
+  //};
 </script>
 
 <Seo
