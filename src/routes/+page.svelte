@@ -44,7 +44,7 @@
     <p />
 
     <p>
-      Other interests: math, art, <a
+      Other interests: math, art, music, <a
         class="link"
         href="https://www.goodreads.com/user/show/117571286-owen">literature</a
       >, and

@@ -3,6 +3,7 @@
 
   const links = [
     { name: "writing", href: "/writing" },
+    { name: "files", href: "https://files.owenoertell.com" },
     { name: "resume", href: "/resume" },
   ];
 

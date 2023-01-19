@@ -12,10 +12,10 @@
   }
 
   .row a {
-    @apply text-neutral-500;
+    @apply text-neutral-500 min-w-fit;
   }
 
   .row hr {
-    @apply w-7/12 mt-0.5 border-neutral-300 border-dotted;
+    @apply w-full mt-0.5 border-neutral-300 border-dotted;
   }
 </style>

@@ -201,11 +201,19 @@
       </li>
       <li>
         <b>Frameworks:</b> React.js, Angular.js, Electron.js, Node.js, Express.js,
-        .NET core
+        Svelte, Tailwind.css, .NET core
       </li>
       <li><b>Databases:</b> PostgreSQL, MongoDB</li>
     </ul>
   </div>
+</section>
+<section class="layout-md">
+  <p>
+    You can also view my resume as a pdf <a
+      class="link"
+      href="https://resume.owenoertell.com">here</a
+    >.
+  </p>
 </section>
 
 <style lang="postcss">
