@@ -8,7 +8,7 @@
   title="Owen Oertell"
   description="I am a computer science, math, and quantitative finance enthusiast."
 />
-
+<!--
 <p
   class="layout-md text-black text-xl leading-tight font-light mb-16"
   id="owen-is"
@@ -17,8 +17,8 @@
   math<span class="g">, and</span><br />
   quanitative finance <span class="g">enthusiast.</span>
 </p>
-
-<div class="layout-md text-lg space-y-14">
+-->
+<div class="layout-md text-lg space-y-14 my-10">
   <div class="space-y-5">
     <p>
       I study at Cornell University and reason about artificial intelligence at <a
@@ -30,9 +30,6 @@
       My research interests include machine learning, theory of computation,
       complexity theory, and optimization.
     </p>
-  </div>
-
-  <div class="space-y-5">
     <p>
       I also work for <a
         class="link"
@@ -40,9 +37,6 @@
       > at Georgia Tech, where I focus on developing a low budget blood assay technique.
       I currently TA for Introduction to Analysis of Algorithms (CS 4820).
     </p>
-
-    <p />
-
     <p>
       Other interests: math, art, music, <a
         class="link"
@@ -53,15 +47,15 @@
   </div>
 </div>
 
-<style lang="postcss">
-  .g {
-    @apply text-neutral-400;
-  }
+<!--<style lang="postcss">
+  //.g {
+  //  @apply text-neutral-400;
+  //}
 
   /* Correction for vertical navigation links on mobile. */
-  @media (max-width: 420px) {
-    #owen-is {
-      @apply -mt-10;
-    }
-  }
-</style>
+  //@media (max-width: 420px) {
+  //  #owen-is {
+  //    @apply -mt-10;
+  //  }
+  //}
+</style>-->
