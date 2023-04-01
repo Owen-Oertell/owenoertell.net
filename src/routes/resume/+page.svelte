@@ -62,7 +62,7 @@
   </ul>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-5">
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
@@ -139,7 +139,7 @@
   </Workplace>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-5">
   <h2 class="heading2">Projects</h2>
   <Project
     name="PrepByAI"
@@ -159,7 +159,7 @@
   </Project>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-5">
   <h2 class="heading2">Awards and Honors</h2>
 
   <div class="mb-4">
@@ -188,7 +188,7 @@
   </div>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-5">
   <h2 class="heading2">Technical Skills</h2>
 
   <div class="mb-4">
