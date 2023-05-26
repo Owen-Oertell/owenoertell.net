@@ -1,6 +1,6 @@
 papers:
   - title: Introduction to Machine Learning
-    date: 2021-11-7
+    date: 2021-11-07
     summary: >
       Brief introduction to foundations of neural networks and backpropagation. Keynote talk given at Governor's Honors Program.
     link: "https://files.owenoertell.com/presentations/intro-ml.pdf"
