@@ -23,8 +23,7 @@
       <div class="text-neutral-500 mb-0.5">2022 — Current</div>
     </div>
     <p class="byline">
-      B.S. in Computer Science, Electrical Computer Engineering. Minor in
-      Mathematics
+      B.S. in Computer Science. Minor in Mathematics
     </p>
   </div>
 
@@ -160,6 +159,14 @@
 </section>
 
 <section class="layout-md py-5">
+  <h2 class="heading2">Publications</h2>
+  <div class="mb-4">
+    &emsp;Jackson Kulik, Owen Oertell, and Dmitry Savransky. <em>Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination.</em> Journal of Guidance, Control, and Dynamics, 2023. Under Review.
+  </div>
+</section>
+
+
+<section class="layout-md py-5">
   <h2 class="heading2">Awards and Honors</h2>
 
   <div class="mb-4">
@@ -233,4 +240,5 @@
   .byline {
     @apply font-serif italic;
   }
+
 </style>
