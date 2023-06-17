@@ -2,7 +2,7 @@ papers:
   - title: Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination
     date: 2023-05-22
     summary: >
-      This paper presents a new approach to relative orbit determination using only angles between the observer and target. Journal of Guidance, Control, and Dynamics, 2023. Under Review. Jackson Kulik, <em>Owen Oertell</em>, and Dmitry Savransky
+      Jackson Kulik, Owen Oertell, and Dmitry Savransky. Relative orbit determination using only angles between the observer and target. Journal of Guidance, Control, and Dynamics, 2023. Under Review. 
   - title: Introduction to Machine Learning
     date: 2021-11-07
     summary: >
