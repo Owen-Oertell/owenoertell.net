@@ -23,7 +23,7 @@
       <div class="text-neutral-500 mb-0.5">2022 — Current</div>
     </div>
     <p class="byline">
-      B.S. in Computer Science. Minor in Mathematics
+      B.S. in Computer Science. Minor in Mathematics.
     </p>
   </div>
 
@@ -37,6 +37,9 @@
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>
+    <li>
+      TA for CS 4820 (Introduction to Analysis of Algorithms), Fall 2023
+    </li>
     <li>
       TA for CS 4820 (Introduction to Analysis of Algorithms), Spring 2023
     </li>
@@ -66,6 +69,22 @@
 
   <Workplace
     title="Undergraduate Researcher"
+    company="Cornell University, Sun Lab"
+    url="https://wensun.github.io"
+    dates="September 2022 – Current"
+    location="Ithaca, NY"
+  >
+    <li>
+      Researching reinforcement learning theory and algorithms.
+    </li>
+    <li>
+      Developing and implementing algorithms for reinforcement learning for diffusion models.
+    </li>
+  </Workplace>
+
+
+  <Workplace
+    title="Undergraduate Researcher"
     company="Cornell University Artificial Intelligence"
     url="https://cuai.github.io/"
     dates="September 2022 – Current"
@@ -76,8 +95,7 @@
       Vision, and MLSystems.
     </li>
     <li>
-      Researching methods for reinforcement learning based program synthesis. In
-      direct collaboration with Meta AI.
+      Developing novel techniques for active learning for taxonomy expansion via coarsened Shannon entropy with Prof. Emaad Manzoor.
     </li>
   </Workplace>
 
@@ -85,7 +103,7 @@
     title="Lab Researcher"
     company="Dickson Lab, Georgia Institute of Technology"
     url="https://dickson.chemistry.gatech.edu/"
-    dates="May 2020 – Current"
+    dates="May 2020 – August 2022"
     location="Atlanta, GA"
   >
     <li>
