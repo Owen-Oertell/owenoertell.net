@@ -31,7 +31,7 @@
       complexity theory, and optimization.
     </p>
     <p>
-      I also work professor <a
+      I also work with professor <a
         class="link"
         href="https://wensun.github.io">Wen Sun</a
       >, where I focus on developing and implementing algorithms for reinforcement learning for diffusion models.
