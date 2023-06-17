@@ -31,10 +31,10 @@
       complexity theory, and optimization.
     </p>
     <p>
-      I also work for <a
+      I also work professor <a
         class="link"
-        href="https://dickson.chemistry.gatech.edu/">Dickson Lab</a
-      > at Georgia Tech, where I focus on developing a low budget blood assay technique.
+        href="https://wensun.github.io">Wen Sun</a
+      >, where I focus on developing and implementing algorithms for reinforcement learning for diffusion models.
       I currently TA for Introduction to Analysis of Algorithms (CS 4820).
     </p>
     <p>
