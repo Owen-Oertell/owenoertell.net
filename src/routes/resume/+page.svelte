@@ -69,7 +69,7 @@
 
   <Workplace
     title="Undergraduate Researcher"
-    company="Cornell University, Sun Lab"
+    company="Sun Lab, Cornell University"
     url="https://wensun.github.io"
     dates="September 2022 – Current"
     location="Ithaca, NY"
