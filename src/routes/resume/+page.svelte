@@ -179,7 +179,10 @@
 <section class="layout-md py-5">
   <h2 class="heading2">Publications</h2>
   <div class="mb-4">
-    &emsp;Jackson Kulik, Owen Oertell, and Dmitry Savransky. <em>Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination.</em> Journal of Guidance, Control, and Dynamics, 2023. Under Review.
+    <em>Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination.</em><br/>
+    <div class="pl-2">
+      Jackson Kulik, <strong>Owen Oertell</strong>, and Dmitry Savransky.  Journal of Guidance, Control, and Dynamics, 2023. Under Review.
+    </div>
   </div>
 </section>
 
