@@ -22,9 +22,7 @@
       <h3 class="text-black text-lg">Cornell University</h3>
       <div class="text-neutral-500 mb-0.5">2022 — Current</div>
     </div>
-    <p class="byline">
-      B.S. in Computer Science. Minor in Mathematics.
-    </p>
+    <p class="byline">B.S. in Computer Science. Minor in Mathematics.</p>
   </div>
 
   <div class="mb-4">
@@ -37,9 +35,7 @@
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>
-    <li>
-      TA for CS 4820 (Introduction to Analysis of Algorithms), Fall 2023
-    </li>
+    <li>TA for CS 4820 (Introduction to Analysis of Algorithms), Fall 2023</li>
     <li>
       TA for CS 4820 (Introduction to Analysis of Algorithms), Spring 2023
     </li>
@@ -49,6 +45,9 @@
   <ul>
     <li>Foundations of Reinforcement Learning (CS 6789)</li>
     <li>Advanced Programming Languages (CS 6110)</li>
+    <li>Analysis of Algorithms (CS 6820)</li>
+    <li>Complexity Theory (CS 6810)</li>
+    <li>Analysis (MATH 6110)</li>
     <li>Computational Foundations of Machine Learning (GT CX 4803)</li>
   </ul>
 
@@ -74,14 +73,12 @@
     dates="September 2022 – Current"
     location="Ithaca, NY"
   >
+    <li>Researching reinforcement learning theory and algorithms.</li>
     <li>
-      Researching reinforcement learning theory and algorithms.
-    </li>
-    <li>
-      Developing and implementing algorithms for reinforcement learning for diffusion models.
+      Developing and implementing algorithms for reinforcement learning for
+      diffusion models.
     </li>
   </Workplace>
-
 
   <Workplace
     title="Undergraduate Researcher"
@@ -95,7 +92,8 @@
       Vision, and MLSystems.
     </li>
     <li>
-      Developing novel techniques for active learning for taxonomy expansion via coarsened Shannon entropy with Prof. Emaad Manzoor.
+      Developing novel techniques for active learning for taxonomy expansion via
+      coarsened Shannon entropy with Prof. Emaad Manzoor.
     </li>
   </Workplace>
 
@@ -179,13 +177,16 @@
 <section class="layout-md py-5">
   <h2 class="heading2">Publications</h2>
   <div class="mb-4">
-    <em>Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination</em>
+    <em
+      >Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit
+      Determination</em
+    >
     <div class="pl-2">
-      Jackson Kulik, <strong>Owen Oertell</strong>, and Dmitry Savransky.  Journal of Guidance, Control, and Dynamics, 2023. Under Review.
+      Jackson Kulik, <strong>Owen Oertell</strong>, and Dmitry Savransky.
+      Journal of Guidance, Control, and Dynamics, 2023. Under Review.
     </div>
   </div>
 </section>
-
 
 <section class="layout-md py-5">
   <h2 class="heading2">Awards and Honors</h2>
@@ -261,5 +262,4 @@
   .byline {
     @apply font-serif italic;
   }
-
 </style>
