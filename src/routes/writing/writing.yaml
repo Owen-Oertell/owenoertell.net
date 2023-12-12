@@ -2,7 +2,7 @@ papers:
   - title: A Kernel Method Approach to Orbital Debris Blast Point
 Determination
     date: 2023-10-22
-    summary:>
+    summary: >
       Jackson Kulik, Owen Oertell, and Dmitry Savransky. Using MMD for obrital debris bast point determination. American Institute of Aeronautics and Astronautics, Under Review.
   - title: Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination
     date: 2023-05-22
