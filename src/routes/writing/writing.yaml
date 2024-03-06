@@ -1,14 +1,30 @@
 papers:
+  - title: "RL for Consistency Models: Reward Guided Text-to-Image Generation with Fast Inference"
+    date: 2024-03-08
+    summary: >
+      Owen Oertell, Jonathan Daniel Chang, Yiyi Zhang, Kianté Brantley, and Wen Sun. Under review at RLC 2024.
+  - title: "More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning"
+    date: 2024-02-01
+    summary: >
+      Kaiwen Wang, Owen Oertell, Alekh Agarwal, Nathan Kallus, and Wen Sun. Under review at ICML 2024.
+    link: "https://arxiv.org/pdf/2402.07198.pdf"
+  - title: "Provably Efficient RL with Preference-based Feedback via Dataset Reset"
+    date: 2024-02-01
+    summary: >
+      Jonathan Daniel Chang, Wenhao Zhan, Owen Oertell, Kianté Brantley, Dipendra Misra, Jason D. Lee, and Wen Sun. Under review at ICML 2024. 
   - title: A Kernel Method Approach to Orbital Debris Blast Point Determination
     date: 2023-12-11
+    link: "https://arc.aiaa.org/doi/10.2514/6.2024-1864"
     summary: >
-      Jackson Kulik, Owen Oertell, and Dmitry Savransky. Using MMD for obrital debris bast point determination. American Institute of Aeronautics and Astronautics, Under Review.
+      Jackson Kulik, Owen Oertell, and Dmitry Savransky. American Institute of Aeronautics and Astronautics 2024.
   - title: Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit Determination
     date: 2023-05-22
+    link: "https://arc.aiaa.org/doi/10.2514/1.G007744"
     summary: >
-      Jackson Kulik, Owen Oertell, and Dmitry Savransky. Relative orbit determination using only angles between the observer and target. Journal of Guidance, Control, and Dynamics, 2023. 
+      Jackson Kulik, Owen Oertell, and Dmitry Savransky. Journal of Guidance, Control, and Dynamics 2023. 
+presentations:
   - title: Introduction to Machine Learning
     date: 2021-11-07
     summary: >
-      Brief introduction to foundations of neural networks and backpropagation. Keynote talk given at Governor's Honors Program.
+      Keynote talk given at Governor's Honors Program.
     link: "https://files.owenoertell.com/presentations/intro-ml.pdf"

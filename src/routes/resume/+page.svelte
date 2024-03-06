@@ -35,14 +35,14 @@
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>
+    <li>TA for CS 4789 (Introduction to Reinforcement Learning), Spring 2024</li>
     <li>TA for CS 4820 (Introduction to Analysis of Algorithms), Fall 2023</li>
-    <li>
-      TA for CS 4820 (Introduction to Analysis of Algorithms), Spring 2023
-    </li>
+    <li>TA for CS 4820 (Introduction to Analysis of Algorithms), Spring 2023</li>
   </ul>
 
   <h4 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h4>
   <ul>
+    <li>Lattices (CS 6802)</li>
     <li>Foundations of Reinforcement Learning (CS 6789)</li>
     <li>Advanced Programming Languages (CS 6110)</li>
     <li>Analysis of Algorithms (CS 6820)</li>
@@ -55,7 +55,6 @@
   <ul>
     <li>Compilers (CS 4120)</li>
     <li>Introduction to Analysis of Algorithms (CS 4820)</li>
-    <li>Object Oriented Programming & Data Structures (CS 2110)</li>
     <li>Discrete Mathematics (GT MATH 2603)</li>
     <li>Differential Equations (GT MATH 2552)</li>
     <li>Multivariable Calculus (GT MATH 2551)</li>

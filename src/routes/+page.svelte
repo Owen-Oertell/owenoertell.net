@@ -31,11 +31,14 @@
       complexity theory, and optimization.
     </p>
     <p>
-      I also work with professor <a
+      I am fortunate to work with professor <a
         class="link"
         href="https://wensun.github.io">Wen Sun</a
-      >, where I focus on developing and implementing algorithms for reinforcement learning for diffusion models.
-      I currently TA for Introduction to Analysis of Algorithms (CS 4820).
+      > and soon professor <a
+      class="link"
+      href="https://www.cs.cornell.edu/~rdk/">Robert Kleinberg</a
+    >, where I focus on developing and implementing algorithms for reinforcement learning.
+      I currently TA for Introduction to Reinforcement Learning (CS 4789).
     </p>
     <p>
       Other interests: math, art, music, <a
