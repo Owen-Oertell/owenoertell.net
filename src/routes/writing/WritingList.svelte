@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ArrowUpRight } from "lucide-svelte";
+  import { ArrowUpRight, Diff } from "lucide-svelte";
 
   import { formatTime } from "$lib/utils";
 
@@ -26,9 +26,11 @@
           {item.title}
           <ArrowUpRight size={18} class="inline text-neutral-400" />
         </div>
-        <div class="sm:ml-auto mb-0.5 text-neutral-500">
-          {formatTime("%B %-d, %Y", item.date)}
-        </div>
+        <!-- <div class="sm:ml-auto mb-0.5 text-neutral-500">
+          <div class="text-sm">
+            {formatTime("%B %-d, %Y", item.date)}
+          </div>
+        </div> -->
       </div>
       <div class="text-lg leading-snug font-serif italic">
         {item.summary}

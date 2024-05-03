@@ -1,17 +1,25 @@
-papers:
+papers2024:
+  - title: "REBEL: Reinforcement Learning via Regressing Relative Rewards"
+    date: 2024-04-25
+    link: "https://arxiv.org/pdf/2404.16767"
+    summary: >
+      Zhaolin Gao, Jonathan D. Chang, Wenhao Zhan, Owen Oertell, Gokul Swamy, Kianté Brantley, Thorsten Joachims, J. Andrew Bagnell, Jason D. Lee, Wen Sun. Preprint.
   - title: "RL for Consistency Models: Reward Guided Text-to-Image Generation with Fast Inference"
     date: 2024-03-08
+    link: "https://arxiv.org/pdf/2404.03673"
     summary: >
-      Owen Oertell, Jonathan Daniel Chang, Yiyi Zhang, Kianté Brantley, and Wen Sun. Under review at RLC 2024.
+      Owen Oertell, Jonathan Daniel Chang, Yiyi Zhang, Kianté Brantley, and Wen Sun. Preprint.
   - title: "More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning"
     date: 2024-02-01
     summary: >
-      Kaiwen Wang, Owen Oertell, Alekh Agarwal, Nathan Kallus, and Wen Sun. Under review at ICML 2024.
-    link: "https://arxiv.org/pdf/2402.07198.pdf"
-  - title: "Provably Efficient RL with Preference-based Feedback via Dataset Reset"
+      Kaiwen Wang, Owen Oertell, Alekh Agarwal, Nathan Kallus, and Wen Sun. To appear in ICML 2024.
+    link: "https://arxiv.org/pdf/2402.07198"
+  - title: Dataset Reset Policy Optimization for RLHF
     date: 2024-02-01
+    link: "https://arxiv.org/pdf/2404.08495"
     summary: >
-      Jonathan Daniel Chang, Wenhao Zhan, Owen Oertell, Kianté Brantley, Dipendra Misra, Jason D. Lee, and Wen Sun. Under review at ICML 2024. 
+      Jonathan Daniel Chang, Wenhao Zhan, Owen Oertell, Kianté Brantley, Dipendra Misra, Jason D. Lee, and Wen Sun. Preprint. 
+papers2023:
   - title: A Kernel Method Approach to Orbital Debris Blast Point Determination
     date: 2023-12-11
     link: "https://arc.aiaa.org/doi/10.2514/6.2024-1864"

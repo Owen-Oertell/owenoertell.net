@@ -22,7 +22,7 @@
       <h3 class="text-black text-lg">Cornell University</h3>
       <div class="text-neutral-500 mb-0.5">2022 — Current</div>
     </div>
-    <p class="byline">B.S. in Computer Science. Minor in Mathematics.</p>
+    <p class="byline">B.S. in Computer Science.</p>
   </div>
 
   <div class="mb-4">
@@ -64,6 +64,31 @@
 
 <section class="layout-md py-5">
   <h2 class="heading2">Professional Experience</h2>
+
+  <Workplace
+    title="Software Engineering Intern"
+    company="NVIDIA"
+    url="https://nvidia.com"
+    dates="August 2024 – December 2024"
+    location="Santa Clara, CA"
+  >
+    <li>
+      AI + Compilers
+    </li>
+  </Workplace>
+
+  <Workplace 
+    title="Software Engineering Intern"
+    company="DRW Holdings"
+    url="https://drw.com"
+    dates="June 2024 – August 2024"
+    location="Chicago, IL"
+  >
+    <li>
+      Commodities desk
+    </li>
+  </Workplace>
+
 
   <Workplace
     title="Undergraduate Researcher"
@@ -175,14 +200,77 @@
 
 <section class="layout-md py-5">
   <h2 class="heading2">Publications</h2>
+  <!-- -->
+  <div class="mb-4">
+    <em
+      >REBEL: Reinforcement Learning via Regressing Relative Rewards</em
+    >
+    <div class="pl-2">
+      Zhaolin Gao, Jonathan D. Chang, Wenhao Zhan, <strong>Owen Oertell</strong>, Gokul Swamy, Kianté Brantley, Thorsten Joachims, J. Andrew Bagnell, Jason D. Lee, Wen Sun. Preprint. <a
+        class="link"
+        href="https://arxiv.org/pdf/2404.16767"
+        >[paper]</a>
+    </div>
+  </div>
+  <!-- -->
+  <div class="mb-4">
+    <em
+      >RL for Consistency Models: Reward Guided Text-to-Image Generation with Fast Inference</em
+    >
+    <div class="pl-2">
+      <strong>Owen Oertell</strong>, Jonathan Daniel Chang, Yiyi Zhang, Kianté Brantley, and Wen Sun. Preprint. <a
+        class="link"
+        href="https://arxiv.org/pdf/2404.03673"
+        >[paper]</a>
+    </div>
+  </div>
+  <!-- -->
+  <div class="mb-4">
+    <em
+      >More Benefits of Being Distributional: Second-Order Bounds for Reinforcement Learning</em
+    >
+    <div class="pl-2">
+      Kaiwen Wang, <strong>Owen Oertell</strong>, Alekh Agarwal, Nathan Kallus, and Wen Sun. To appear in ICML 2024. <a
+        class="link"
+        href="https://arxiv.org/pdf/2402.07198"
+        >[paper]</a>
+    </div>
+  </div>
+  <!-- -->
+  <div class="mb-4">
+    <em
+      >Dataset Reset Policy Optimization for RLHF</em
+    >
+    <div class="pl-2">
+      Jonathan Daniel Chang, Wenhao Zhan, <strong>Owen Oertell</strong>, Kianté Brantley, Dipendra Misra, Jason D. Lee, and Wen Sun. Preprint. <a
+        class="link"
+        href="https://arxiv.org/pdf/2404.08495"
+        >[paper]</a>
+    </div>
+  </div>
+  <!-- -->
+  <div class="mb-4">
+    <em
+      >A Kernel Method Approach to Orbital Debris Blast Point Determination</em
+    >
+    <div class="pl-2">
+      Jackson Kulik, <strong>Owen Oertell</strong>, and Dmitry Savransky. American Institute of Aeronautics and Astronautics 2024. <a
+        class="link"
+        href="https://arc.aiaa.org/doi/10.2514/6.2024-1864"
+        >[paper]</a>
+    </div>
+  </div>
+  <!-- -->
   <div class="mb-4">
     <em
       >Overdetermined Eigenvector Approach to Passive Angles-Only Relative Orbit
       Determination</em
     >
     <div class="pl-2">
-      Jackson Kulik, <strong>Owen Oertell</strong>, and Dmitry Savransky.
-      Journal of Guidance, Control, and Dynamics, 2023. Under Review.
+      Jackson Kulik, <strong>Owen Oertell</strong>, and Dmitry Savransky. Journal of Guidance, Control, and Dynamics 2023. <a
+        class="link"
+        href="https://arc.aiaa.org/doi/10.2514/1.G007744"
+        >[paper]</a>
     </div>
   </div>
 </section>

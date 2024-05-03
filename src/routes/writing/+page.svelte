@@ -10,9 +10,13 @@
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Publications</h2>
-  <WritingList data={writing.papers} />
+  <h2 class="heading2">2024</h2>
+  <WritingList data={writing.papers2024} />
+  
+  <h2 class="heading2 mt-10">2023</h2>
+  <WritingList data={writing.papers2023} />
 </section>
+
 <section class="layout-md py-12">
   <h2 class="heading2">Presentations</h2>
   <WritingList data={writing.presentations} />
