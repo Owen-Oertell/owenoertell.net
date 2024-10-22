@@ -6,7 +6,7 @@
 
 <Seo
   title="Owen Oertell"
-  description="I am a computer science, math, and quantitative finance enthusiast."
+  description="I am a computer science, math, and machine learning enthusiast."
 />
 <!--
 <p
@@ -21,9 +21,9 @@
 <div class="layout-md text-lg space-y-14 my-10">
   <div class="space-y-5">
     <p>
-      I study at Cornell University and reason about artificial intelligence at <a
+      I study at Cornell University and research artificial intelligence at <a
         class="link"
-        href="https://cuai.github.io/">CUAI</a
+        href="https://www.nvidia.com/">NVIDIA</a
       >.
     </p>
     <p>
@@ -34,11 +34,13 @@
       I am fortunate to work with professor <a
         class="link"
         href="https://wensun.github.io">Wen Sun</a
-      > and soon professor <a
+      > and professor <a
       class="link"
       href="https://www.cs.cornell.edu/~rdk/">Robert Kleinberg</a
     >, where I focus on developing and implementing algorithms for reinforcement learning.
-      I currently TA for Introduction to Reinforcement Learning (CS 4789).
+    </p>
+    <p>
+      Last summer, I interned at <a class="link" href="https://www.drw.com/">DRW</a>.
     </p>
     <p>
       Other interests: math, art, music, <a
