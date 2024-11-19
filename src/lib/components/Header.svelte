@@ -2,8 +2,7 @@
   import { page } from "$app/stores";
 
   const links = [
-    { name: "writing", href: "/writing" },
-    { name: "files", href: "https://files.owenoertell.com" },
+    { name: "publications", href: "/publications" },
     { name: "resume", href: "/resume" },
   ];
 

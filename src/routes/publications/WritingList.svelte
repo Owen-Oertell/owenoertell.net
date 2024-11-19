@@ -1,13 +1,11 @@
 <script lang="ts">
   import { ArrowUpRight, Diff } from "lucide-svelte";
-
-  import { formatTime } from "$lib/utils";
-
   type Writing = {
     title: string;
     date: Date;
-    summary: string;
+    authors: string;
     link: string;
+    venue: string;
   };
 
   export let data: Writing[];
@@ -17,12 +15,12 @@
   {#each data as item}
     <a
       href={item.link}
-      class="block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors"
+      class="block -mx-3 px-3  hover:bg-neutral-100 transition-colors"
       target="_blank"
       rel="noreferrer"
     >
       <div class="flex flex-col sm:flex-row sm:items-end mb-1.5">
-        <div class="text-lg text-black">
+        <div class="text-black">
           {item.title}
           <ArrowUpRight size={18} class="inline text-neutral-400" />
         </div>
@@ -32,8 +30,11 @@
           </div>
         </div> -->
       </div>
-      <div class="text-lg leading-snug font-serif italic">
-        {item.summary}
+      <div><span class="leading-snug italic">
+        {item.authors}
+      </span></div>
+      <div>
+        <span class="text-neutral-500">{item.venue}</span>
       </div>
     </a>
   {/each}

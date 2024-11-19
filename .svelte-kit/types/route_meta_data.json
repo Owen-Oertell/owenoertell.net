@@ -3,10 +3,10 @@
 		"src/routes/+layout.ts",
 		"src/routes/+layout.ts"
 	],
-	"/resume": [
+	"/publications": [
 		"src/routes/+layout.ts"
 	],
-	"/writing": [
+	"/resume": [
 		"src/routes/+layout.ts"
 	]
 }

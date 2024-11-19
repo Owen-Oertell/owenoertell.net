@@ -10,8 +10,8 @@ export const server_loads = [];
 
 export const dictionary = {
 	"/": [2],
-	"/resume": [3],
-	"/writing": [4]
+	"/publications": [3],
+	"/resume": [4]
 };
 
 export const hooks = {

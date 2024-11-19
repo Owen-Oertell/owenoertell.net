@@ -1,23 +1,11 @@
 <script lang="ts">
-  import { ArrowUpRight } from "lucide-svelte";
-
   import Seo from "$lib/components/Seo.svelte";
 </script>
 
 <Seo
   title="Owen Oertell"
-  description="I am a computer science, math, and machine learning enthusiast."
+  description="machine learning."
 />
-<!--
-<p
-  class="layout-md text-black text-xl leading-tight font-light mb-16"
-  id="owen-is"
->
-  <span class="g">is a</span> computer science<span class="g">,</span><br />
-  math<span class="g">, and</span><br />
-  quanitative finance <span class="g">enthusiast.</span>
-</p>
--->
 <div class="layout-md text-lg space-y-14 my-10">
   <div class="space-y-5">
     <p>
@@ -27,8 +15,7 @@
       >.
     </p>
     <p>
-      My research interests include machine learning, theory of computation,
-      complexity theory, and optimization.
+      My research interests include reinforcement learning, generative models (mainly diffusion and LLMs), and bandits.
     </p>
     <p>
       I am fortunate to work with professor <a
@@ -37,18 +24,19 @@
       > and professor <a
       class="link"
       href="https://www.cs.cornell.edu/~rdk/">Robert Kleinberg</a
-    >, where I focus on developing and implementing algorithms for reinforcement learning.
+    >.
     </p>
     <p>
       Last summer, I interned at <a class="link" href="https://www.drw.com/">DRW</a>.
     </p>
     <p>
-      Other interests: math, art, music, <a
+      Other interests: math, art, music, and <a
         class="link"
         href="https://www.goodreads.com/user/show/117571286-owen">literature</a
-      >, and
-      <a class="link" href="https://en.wikipedia.org/wiki/Go_(game)">go</a>.
-    </p>
+      >
+  </div>
+  <div>
+    News: I am excited to share that both <a class="link" href="https://arxiv.org/pdf/2410.20660">TurboHopp</a> and <a class="link" href="https://arxiv.org/pdf/2404.16767">REBEL</a> have been accepted to NeurIPS 2024! 🎉
   </div>
 </div>
 
