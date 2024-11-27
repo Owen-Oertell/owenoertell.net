@@ -20,6 +20,7 @@
     import MarkdownIt from "markdown-it";
     import markdownItKatex from "markdown-it-katex";
     import "katex/dist/katex.min.css";
+    import { formatTime } from "$lib/utils";
 
     let htmlContent = "";
 
@@ -46,11 +47,7 @@
     <div class="layout-md flex justify-between text-neutral-500">
         <div>{content.tags}</div>
         <div class="italic">
-            {new Date(content.date).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-            })}
+            {formatTime("%B %-d, %Y", content.date)}
         </div>
     </div>
     <!-- title and center it-->
@@ -65,7 +62,6 @@
 </section>
 
 <style>
-
     :global(.content h1) {
         font-size: 2em;
         margin-top: 0.67em;
@@ -90,5 +86,17 @@
     :global(.content p) {
         line-height: 1.6;
         margin-bottom: 1em;
+    }
+
+    :global(.content img) {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    :global(.content img + em) {
+        display: block;
+        text-align: center;
     }
 </style>

@@ -7,7 +7,10 @@ const config = {
 
   kit: {
     adapter: adapter(),
-
+    prerender: {
+      crawl: true,
+      entries: ["*", "/writing/what-makes-exciting-research"],
+    }
   },
 };
 
