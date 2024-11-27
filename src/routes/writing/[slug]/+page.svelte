@@ -36,7 +36,13 @@
         const response = await fetch(`/assets/content/${slug}.md`);
         htmlContent = await response.text();
         htmlContent = md.render(htmlContent);
-        console.log(htmlContent);
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlContent, "text/html");
+        doc.querySelectorAll("a").forEach((a) => {
+            a.classList.add("link");
+        });
+        htmlContent = doc.body.innerHTML;
     });
 </script>
 
@@ -98,5 +104,11 @@
     :global(.content img + em) {
         display: block;
         text-align: center;
+    }
+
+    :global(.content blockquote) {
+        border-left: 4px solid #ddd;
+        padding: 0 15px;
+        margin: 0;
     }
 </style>
