@@ -1,4 +1,4 @@
-import { c as create_ssr_component, h as compute_rest_props, i as spread, j as escape_object, k as escape_attribute_value, d as each, l as is_void } from "./index.js";
+import { c as create_ssr_component, h as compute_rest_props, i as spread, j as escape_object, k as escape_attribute_value, d as each, l as is_void } from "./index2.js";
 const defaultAttributes = {
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -48,7 +48,6 @@ const Icon = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     })(tag)}`;
   })}${slots.default ? slots.default({}) : ``}</svg>`;
 });
-const Icon$1 = Icon;
 export {
-  Icon$1 as I
+  Icon as I
 };

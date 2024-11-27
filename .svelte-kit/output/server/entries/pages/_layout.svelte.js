@@ -1,7 +1,7 @@
-import { c as create_ssr_component, b as subscribe, e as escape, d as each, f as add_attribute, v as validate_component } from "../../chunks/index.js";
+import { c as create_ssr_component, b as subscribe, e as escape, d as each, f as add_attribute, v as validate_component } from "../../chunks/index2.js";
 import { p as page } from "../../chunks/stores.js";
 const _400Italic = "";
-const app = "";
+const App = "";
 const Header_svelte_svelte_type_style_lang = "";
 const css$1 = {
   code: "nav.svelte-bgdsr9.svelte-bgdsr9.svelte-bgdsr9{display:flex;align-items:flex-start;justify-content:flex-end\n}nav.svelte-bgdsr9>.svelte-bgdsr9:not([hidden])~.svelte-bgdsr9:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))\n}nav.svelte-bgdsr9.svelte-bgdsr9.svelte-bgdsr9{padding-top:0.125rem;padding-bottom:0.125rem;font-size:1.125rem;line-height:1.75rem;--tw-text-opacity:1;color:rgb(115 115 115 / var(--tw-text-opacity))\n}.page-title.svelte-bgdsr9.svelte-bgdsr9.svelte-bgdsr9{font-weight:300\n}@media(max-width: 580px){.page-title.svelte-bgdsr9.svelte-bgdsr9.svelte-bgdsr9{display:block;font-size:1.25rem;line-height:1.75rem\n    }.page-title.svelte-bgdsr9 .svelte-bgdsr9.svelte-bgdsr9:first-child{display:none\n    }}@media(max-width: 420px){nav.svelte-bgdsr9.svelte-bgdsr9.svelte-bgdsr9{flex-direction:column;align-items:flex-end\n    }nav.svelte-bgdsr9>.svelte-bgdsr9:not([hidden])~.svelte-bgdsr9:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0px * var(--tw-space-x-reverse));margin-left:calc(0px * calc(1 - var(--tw-space-x-reverse)))\n    }}",
@@ -11,10 +11,10 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $page, $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => $page = value);
   const links = [
-    { name: "writing", href: "/writing" },
+    { name: "writings", href: "/writing" },
     {
-      name: "files",
-      href: "https://files.owenoertell.com"
+      name: "publications",
+      href: "/publications"
     },
     { name: "resume", href: "/resume" }
   ];
@@ -22,7 +22,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
   {
     {
-      const link = links.find(({ href }) => href === $page.url.pathname);
+      const link = links.find(({ href }) => $page.url.pathname.includes(href));
       if (link) {
         pageTitle = link.name.charAt(0).toUpperCase() + link.name.slice(1);
       } else {
@@ -50,10 +50,15 @@ const css = {
 };
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<footer class="${"layout-md mt-20 text-lg flex flex-col"}"><div class="${"row svelte-x197ko"}"><a class="${"link svelte-x197ko"}" href="${"https://github.com/owen-oertell"}">@owen-oertell</a>
+  return `<footer class="${"layout-md mt-20 text-lg flex flex-col"}"><div class="${"row svelte-x197ko"}">email
     <hr class="${"svelte-x197ko"}">
     <a class="${"link svelte-x197ko"}" href="${"mailto:ojo2@cornell.edu"}">ojo2@cornell.edu</a></div>
-</footer>`;
+  <div class="${"row svelte-x197ko"}">github
+    <hr class="${"svelte-x197ko"}">
+    <a class="${"link svelte-x197ko"}" href="${"https://github.com/owen-oertell"}">@owen-oertell</a></div>
+  <div class="${"row svelte-x197ko"}">scholar
+    <hr class="${"svelte-x197ko"}">
+    <a class="${"link svelte-x197ko"}" href="${"https://scholar.google.com/citations?user=y0B6gawAAAAJ&hl=en"}">owen-oertell</a></div></footer>`;
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { data } = $$props;

@@ -2,8 +2,9 @@ import * as universal from '../entries/pages/_layout.ts.js';
 
 export const index = 0;
 export const component = async () => (await import('../entries/pages/_layout.svelte.js')).default;
-export const file = '_app/immutable/components/pages/_layout.svelte-e0750d5b.js';
+export const file = '_app/immutable/entry/_layout.svelte.5acea3f0.js';
 export { universal };
-export const imports = ["_app/immutable/components/pages/_layout.svelte-e0750d5b.js","_app/immutable/chunks/index-9df96e65.js","_app/immutable/chunks/index-b3f63c99.js","_app/immutable/chunks/stores-1aabc9aa.js","_app/immutable/chunks/singletons-d371d5b0.js","_app/immutable/modules/pages/_layout.ts-00dcd498.js","_app/immutable/chunks/_layout-a77f3046.js"];
-export const stylesheets = ["_app/immutable/assets/_layout-08c61d74.css"];
-export const fonts = ["_app/immutable/assets/newsreader-vietnamese-400-italic-15c2d816.woff2","_app/immutable/assets/newsreader-all-400-italic-b234bc8e.woff","_app/immutable/assets/newsreader-latin-ext-400-italic-5bf368d2.woff2","_app/immutable/assets/newsreader-latin-400-italic-c935023f.woff2"];
+export const universal_id = "src/routes/+layout.ts";
+export const imports = ["_app/immutable/entry/_layout.svelte.5acea3f0.js","_app/immutable/chunks/index.3ac5e79f.js","_app/immutable/chunks/index.4fc970bf.js","_app/immutable/chunks/stores.468eaf66.js","_app/immutable/chunks/singletons.c2db359b.js","_app/immutable/entry/_layout.ts.5b187099.js","_app/immutable/chunks/_layout.a77f3046.js"];
+export const stylesheets = ["_app/immutable/assets/_layout.a41a0631.css"];
+export const fonts = ["_app/immutable/assets/newsreader-vietnamese-400-italic.15c2d816.woff2","_app/immutable/assets/newsreader-all-400-italic.b234bc8e.woff","_app/immutable/assets/newsreader-latin-ext-400-italic.5bf368d2.woff2","_app/immutable/assets/newsreader-latin-400-italic.c935023f.woff2"];

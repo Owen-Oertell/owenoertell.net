@@ -8,5 +8,11 @@
 	],
 	"/resume": [
 		"src/routes/+layout.ts"
+	],
+	"/writing": [
+		"src/routes/+layout.ts"
+	],
+	"/writing/[slug]": [
+		"src/routes/+layout.ts"
 	]
 }

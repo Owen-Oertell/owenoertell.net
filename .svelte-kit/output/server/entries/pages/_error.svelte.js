@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, b as subscribe, e as escape } from "../../chunks/index.js";
+import { c as create_ssr_component, v as validate_component, b as subscribe, e as escape } from "../../chunks/index2.js";
 import { p as page } from "../../chunks/stores.js";
 import { I as Icon } from "../../chunks/Icon.js";
 const Bug = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -28,13 +28,12 @@ const Bug = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   })}`;
 });
-const Bug$1 = Bug;
 const Error = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $page, $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => $page = value);
   $$unsubscribe_page();
-  return `<div class="${"layout-md"}"><div class="${"pt-14 pb-40 sm:pt-20 sm:pb-80 text-xl flex justify-center items-center"}">${validate_component(Bug$1, "Bug").$$render($$result, { class: "mr-2" }, {}, {})}
-    <span class="${"font-medium"}">${escape($page.status)}</span>
+  return `<div class="${"layout-md"}"><div class="${"pt-14 pb-40 sm:pt-20 sm:pb-80 text-xl flex justify-center items-center"}">${validate_component(Bug, "Bug").$$render($$result, { class: "mr-2" }, {}, {})}
+    <span class="${"font-medium"}">404</span>
     <div class="${"mx-4 h-8 border-l border-black"}"></div>
     ${escape($page.error?.message)}</div></div>`;
 });

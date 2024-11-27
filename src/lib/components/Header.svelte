@@ -2,13 +2,14 @@
   import { page } from "$app/stores";
 
   const links = [
+    { name: "writings", href: "/writing" },
     { name: "publications", href: "/publications" },
     { name: "resume", href: "/resume" },
   ];
 
   let pageTitle: string | null = null;
   $: {
-    const link = links.find(({ href }) => href === $page.url.pathname);
+    const link = links.find(({ href }) => $page.url.pathname.includes(href));
     if (link) {
       pageTitle = link.name.charAt(0).toUpperCase() + link.name.slice(1);
     } else {
