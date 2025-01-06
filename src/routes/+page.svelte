@@ -30,13 +30,13 @@
       Last summer, I interned at <a class="link" href="https://www.drw.com/">DRW</a>.
     </p>
     <p>
+      A picture of myself can be found <a class="link" href="assets/images/owen_oertell.png">here</a>.
+    </p>
+    <p>
       Other interests: math, art, music, and <a
         class="link"
         href="https://www.goodreads.com/user/show/117571286-owen">literature</a
-      >
-  </div>
-  <div>
-    News: I am excited to share that both <a class="link" href="https://arxiv.org/pdf/2410.20660">TurboHopp</a> and <a class="link" href="https://arxiv.org/pdf/2404.16767">REBEL</a> have been accepted to NeurIPS 2024! 🎉
+      >.
   </div>
 </div>
 

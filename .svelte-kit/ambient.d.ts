@@ -27,7 +27,6 @@
  */
 declare module '$env/static/private' {
 	export const CAML_LD_LIBRARY_PATH: string;
-	export const MANPATH: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
@@ -40,6 +39,7 @@ declare module '$env/static/private' {
 	export const TERM_PROGRAM_VERSION: string;
 	export const COLOR: string;
 	export const OPAM_SWITCH_PREFIX: string;
+	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
 	export const ZSH: string;
@@ -52,10 +52,11 @@ declare module '$env/static/private' {
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
+	export const TERM_FEATURES: string;
 	export const PAGER: string;
 	export const _CE_CONDA: string;
 	export const LSCOLORS: string;
-	export const WEZTERM_EXECUTABLE_DIR: string;
+	export const TERMINFO_DIRS: string;
 	export const PATH: string;
 	export const npm_package_json: string;
 	export const _: string;
@@ -68,17 +69,18 @@ declare module '$env/static/private' {
 	export const EDITOR: string;
 	export const npm_package_name: string;
 	export const LANG: string;
-	export const WEZTERM_PANE: string;
+	export const ITERM_PROFILE: string;
 	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
 	export const npm_config_node_gyp: string;
 	export const _CE_M: string;
 	export const XPC_SERVICE_NAME: string;
-	export const WEZTERM_UNIX_SOCKET: string;
 	export const SHLVL: string;
 	export const HOME: string;
+	export const COLORFGBG: string;
+	export const LC_TERMINAL_VERSION: string;
 	export const HOMEBREW_PREFIX: string;
-	export const WEZTERM_CONFIG_DIR: string;
+	export const ITERM_SESSION_ID: string;
 	export const npm_config_cache: string;
 	export const CONDA_PYTHON_EXE: string;
 	export const LESS: string;
@@ -87,8 +89,8 @@ declare module '$env/static/private' {
 	export const npm_config_user_agent: string;
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
-	export const WEZTERM_EXECUTABLE: string;
-	export const WEZTERM_CONFIG_FILE: string;
+	export const LC_TERMINAL: string;
+	export const SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -123,7 +125,6 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		CAML_LD_LIBRARY_PATH: string;
-		MANPATH: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
@@ -136,6 +137,7 @@ declare module '$env/dynamic/private' {
 		TERM_PROGRAM_VERSION: string;
 		COLOR: string;
 		OPAM_SWITCH_PREFIX: string;
+		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
 		ZSH: string;
@@ -148,10 +150,11 @@ declare module '$env/dynamic/private' {
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
+		TERM_FEATURES: string;
 		PAGER: string;
 		_CE_CONDA: string;
 		LSCOLORS: string;
-		WEZTERM_EXECUTABLE_DIR: string;
+		TERMINFO_DIRS: string;
 		PATH: string;
 		npm_package_json: string;
 		_: string;
@@ -164,17 +167,18 @@ declare module '$env/dynamic/private' {
 		EDITOR: string;
 		npm_package_name: string;
 		LANG: string;
-		WEZTERM_PANE: string;
+		ITERM_PROFILE: string;
 		npm_config_npm_version: string;
 		XPC_FLAGS: string;
 		npm_config_node_gyp: string;
 		_CE_M: string;
 		XPC_SERVICE_NAME: string;
-		WEZTERM_UNIX_SOCKET: string;
 		SHLVL: string;
 		HOME: string;
+		COLORFGBG: string;
+		LC_TERMINAL_VERSION: string;
 		HOMEBREW_PREFIX: string;
-		WEZTERM_CONFIG_DIR: string;
+		ITERM_SESSION_ID: string;
 		npm_config_cache: string;
 		CONDA_PYTHON_EXE: string;
 		LESS: string;
@@ -183,8 +187,8 @@ declare module '$env/dynamic/private' {
 		npm_config_user_agent: string;
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
-		WEZTERM_EXECUTABLE: string;
-		WEZTERM_CONFIG_FILE: string;
+		LC_TERMINAL: string;
+		SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
