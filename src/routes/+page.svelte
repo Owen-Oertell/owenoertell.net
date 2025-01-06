@@ -9,10 +9,7 @@
 <div class="layout-md text-lg space-y-14 my-10">
   <div class="space-y-5">
     <p>
-      I study at Cornell University and research artificial intelligence at <a
-        class="link"
-        href="https://www.nvidia.com/">NVIDIA</a
-      >.
+      I study at Cornell University, where I am pursuing a B.S. in Computer Science.
     </p>
     <p>
       My research interests include reinforcement learning, generative models (mainly diffusion and LLMs), and bandits.
