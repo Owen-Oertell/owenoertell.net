@@ -30,13 +30,13 @@
       Last summer, I interned at <a class="link" href="https://www.drw.com/">DRW</a>.
     </p>
     <p>
-      A picture of myself can be found <a class="link" href="assets/images/owen_oertell.png">here</a>.
+      A picture of me can be found <a class="link" href="assets/images/owen_oertell.png">here</a>.
     </p>
     <p>
-      Other interests: math, art, music, and <a
+      Other interests: math, art, music, <a
         class="link"
         href="https://www.goodreads.com/user/show/117571286-owen">literature</a
-      >.
+      >, and drone photography.
   </div>
 </div>
 
