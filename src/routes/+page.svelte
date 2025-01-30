@@ -12,7 +12,7 @@
       I study at Cornell University, where I am pursuing a B.S. in Computer Science.
     </p>
     <p>
-      My research interests include reinforcement learning, generative models (mainly diffusion and LLMs), and bandits.
+      I am interested in reasoning, decision making (reinforcement learning, bandits), and generative modeling (diffusion, LLMs).
     </p>
     <p>
       I am fortunate to work with professor <a

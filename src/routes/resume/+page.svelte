@@ -27,7 +27,7 @@
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>
-    <li>TA for CS 4789 (Introduction to Reinforcement Learning). Sp24</li>
+    <li>TA for CS 4789 (Introduction to Reinforcement Learning). Sp24, Sp25</li>
     <li>TA for CS 4820 (Introduction to Analysis of Algorithms). Fa23, Sp23</li>
   </ul>
 
